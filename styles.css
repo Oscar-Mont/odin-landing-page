@@ -1,0 +1,48 @@
+/* ||RESET */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ||GENERAL STYLES */
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+
+/* BLOCKS */
+
+.header {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
+
+
+/* ||ELEMENTS */
+
+.header__logo {
+    font-size: 20px;
+}
+
+.header__ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+}
+
+.header__li {
+    padding: 8px;
+    font-size: 8px;
+    color: #F9FAF8;
+}
+
+/* ||MODIFIERS */
