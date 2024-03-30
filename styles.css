@@ -3,6 +3,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    border: 2px dotted red;
 }
 
 /* ||GENERAL STYLES */
@@ -37,7 +38,30 @@ body {
     height: 400px;
 }
 
-/* ||ELEMENTS AND CONTAINERS IN CONTAINERS*/
+.img-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+}
+
+.quote-section {
+    display: flex;
+    height: 400px;
+    background-color: #E5E7EB;
+}
+
+.action-section {
+    height: 400px;
+}
+
+.footer {
+    height: 400px;
+}
+
+/* ||ELEMENTS (SOME BLOCKS IN BLOCKS)*/
+
+/*header */
 
 .header__logo {
     display: flex;
@@ -56,6 +80,8 @@ body {
     font-size: 20px;
     color: #E5E7EB;
 }
+
+/*main section*/
 
 .main-section__div {
     display: flex;
@@ -97,6 +123,41 @@ body {
     align-self: center;
     background-color: #E5E7EB;
     padding: 100px 120px 100px 120px;
+}
+
+/*image section*/
+
+.img-section__title {
+    text-align: center;
+    margin: 50px;
+}
+
+.img-section__items {
+    /*images flex container*/
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.img-section__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.img-section__img {
+    border: 5px solid skyblue;
+    border-radius: 4px;
+    height: 150px;
+    width: 150px;
+}
+
+.img-section__p {
+    display: flex;
+    width: 150px;
+    text-align: center;
 }
 
 /* ||MODIFIERS */
